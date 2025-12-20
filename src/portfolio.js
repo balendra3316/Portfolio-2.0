@@ -13,7 +13,7 @@ const about = {
   role: 'Full stack developer',
   description:
     'B.Tech IT student living in Chhatarpur, MadhyaPradesh. highly interested in cutting edge technology, web development and Java back end development.',
-  resume: 'https://drive.google.com/file/d/1SYy8XFElw0lF8zLAhcuaq7Arm4U8C4Rg/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1fX0RjdKmE7_rW3n-5eoeh32SK-ywvcf2/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/balendra-singh-parihar-b9588a234/',
     github: 'https://github.com/balendra3316',
