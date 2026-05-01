@@ -1,4 +1,4 @@
-import aboutpic from "./components/Access/mePhoto.png"
+import aboutpic from './components/Access/mePhoto.png'
 
 const header = {
   // all the properties are optional - can be left empty or deleted
@@ -7,13 +7,14 @@ const header = {
 }
 
 const about = {
-  photo:aboutpic,
+  photo: aboutpic,
   // all the properties are optional - can be left empty or deleted
   name: 'Balendra Singh Parihar',
   role: 'Full stack developer',
   description:
-    'B.Tech IT student living in Chhatarpur, MadhyaPradesh. highly interested in cutting edge technology, web development and Java back end development.',
-  resume: 'https://drive.google.com/file/d/1fX0RjdKmE7_rW3n-5eoeh32SK-ywvcf2/view?usp=sharing',
+    'B.Tech IT student living in Chhatarpur, MadhyaPradesh. highly interested in cutting edge technology, web development and MERN stack development.',
+  resume:
+    'https://drive.google.com/file/d/124IpPECjjdfSasFBJyUSDtCQW1RraLCi/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/balendra-singh-parihar-b9588a234/',
     github: 'https://github.com/balendra3316',
@@ -25,7 +26,16 @@ const projects = [
     name: 'Community E-Learning Platform',
     description:
       'Full-stack platform with course enrollment, a subscription model, and user engagement features. Key features include optimistic liking, a gamified leaderboard, and a Gemini AI-powered RAG chatbot for contextual support.',
-    stack: ['Next.js', 'Express', 'MongoDB', 'Razorpay/Stripe', 'GenAI (Gemini)', 'Vector DB', 'Socket.io', 'Redux Toolkit'],
+    stack: [
+      'Next.js',
+      'Express',
+      'MongoDB',
+      'Razorpay/Stripe',
+      'GenAI (Gemini)',
+      'Vector DB',
+      'Socket.io',
+      'Redux Toolkit',
+    ],
     sourceCode: 'https://github.com/balendra3316/community-frontend',
     livePreview: 'https://community-frontend-o38g.vercel.app',
   },
@@ -33,7 +43,15 @@ const projects = [
     name: 'HRMS (Payroll, Attendance, Task Management)',
     description:
       'Modular HR Management System with dual Admin/Employee portals. Implemented secure monthly payroll processing, PDF payslip generation (via Puppeteer), leave request workflow, and Zod schema validation for data integrity.',
-    stack: ['Node.js', 'Express', 'Next.js', 'MongoDB', 'Puppeteer', 'Zod', 'Mongoose'],
+    stack: [
+      'Node.js',
+      'Express',
+      'Next.js',
+      'MongoDB',
+      'Puppeteer',
+      'Zod',
+      'Mongoose',
+    ],
     sourceCode: 'https://github.com/balendra3316/hrms-frontend',
     livePreview: 'https://hrms-frontend-ruddy.vercel.app',
   },
@@ -41,7 +59,14 @@ const projects = [
     name: 'AI Productivity Planner (Overcome-Breaker)',
     description:
       'An AI-driven project breakdown tool using Groq and LangChain to convert large projects into personalized 5-15 minute work chunks, optimizing productivity based on user energy profiles and historical success patterns.',
-    stack: ['Next.js', 'PostgreSQL (Drizzle ORM)', 'Groq AI', 'LangChain', 'NextAuth', 'TypeScript'],
+    stack: [
+      'Next.js',
+      'PostgreSQL (Drizzle ORM)',
+      'Groq AI',
+      'LangChain',
+      'NextAuth',
+      'TypeScript',
+    ],
     sourceCode: 'https://github.com/balendra3316/overcome-breaker',
     livePreview: 'https://overcome-breaker.vercel.app',
   },
@@ -68,7 +93,8 @@ const projects = [
       'Develop the front-end of downloading Instagram reels, stories, YouTube videos, and Spotify songs with ease. Optimized content retrieval by 60% through strategic implementation of web scraping and API integration.',
     stack: ['ReactJS', 'npm', 'Rapid API', 'HTML', 'CSS'],
     sourceCode: 'https://github.com/balendra3316/Insta-Saver',
-    livePreview: 'https://insta-saver-4ebr335uj-balendra3316s-projects.vercel.app/',
+    livePreview:
+      'https://insta-saver-4ebr335uj-balendra3316s-projects.vercel.app/',
   },
   {
     name: 'Code Pen editor',
@@ -78,7 +104,7 @@ const projects = [
     sourceCode: 'https://github.com/balendra3316/CodePen',
     livePreview: 'https://balendra3316.github.io/CodePen/',
   },
-];
+]
 
 const skills = [
   'JavaScript',
@@ -122,9 +148,8 @@ const skills = [
   'VS Code',
   'Supabase',
   'VPS',
-];
+]
 const contact = {
-  
   email: 'vinay626397@gmail.com',
 }
 
